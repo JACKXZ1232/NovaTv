@@ -8,6 +8,7 @@ import { DetailScreen } from '../screens/DetailScreen';
 import { PlayerScreen } from '../screens/PlayerScreen';
 import { SearchScreen } from '../screens/SearchScreen';
 import { FavoritesScreen } from '../screens/FavoritesScreen';
+import { ExploreScreen } from '../screens/ExploreScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -45,6 +46,13 @@ function HomeTabs() {
         component={SearchScreen} 
         options={{
           tabBarLabel: 'Buscador',
+        }}
+      />
+      <Tab.Screen 
+        name="Explorar" 
+        component={ExploreScreen} 
+        options={{
+          tabBarLabel: 'Explorar',
         }}
       />
       <Tab.Screen 

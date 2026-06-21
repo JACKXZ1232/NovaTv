@@ -26,6 +26,7 @@
   "exclude": [
     "node_modules",
     "NovaTv",
-    "novatv-scraper"
+    "novatv-scraper",
+    "novatv-admin"
   ]
 }
