@@ -1,0 +1,6 @@
+{
+  "name": "NovaTv Hub",
+  "description": "NovaTv Hub: Interactive Database Schema, Administration Portal, API Scraper, and Smart TV/Mobile Emulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
